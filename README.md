@@ -16,6 +16,7 @@ I figured if my data had any connection to real world politics, President Trump 
 
 
 ## Contents
+```
 |__ code
 |   |__ 1_web_scraping_and_preprocessing.ipynb   
 |   |__ 2_model_testing.ipynb   
@@ -28,6 +29,7 @@ I figured if my data had any connection to real world politics, President Trump 
 |   |__ submission_lasso.csv
 |   |__ submission_ridge.csv
 |__ presentation.pdf
+```
 
 
 ## Data Dictionary
@@ -35,11 +37,11 @@ I figured if my data had any connection to real world politics, President Trump 
 |Feature|Type|Description|
 |---|---|---|---|
 |**text**|*object*|The text data from either subreddit submissions (title and selftext) or comments (body text)|
-**subreddit**|*object*|Source of text data, either House of Cards or The West Wing subreddits
-**trump**|*int*|Identifies text data post date as being either before (0) or after (1) the 2016 election
-**submission**|*int*|Identifies text data as being either a comment (0) or submission (1)
-**created_utc**|*int*|UTC timestamp for submission/comment post
-**word_count**|*int*|Number of words in document
+**subreddit**|*object*|Source of text data, either House of Cards or The West Wing subreddits|
+**trump**|*int*|Identifies text data post date as being either before (0) or after (1) the 2016 election|
+**submission**|*int*|Identifies text data as being either a comment (0) or submission (1)|
+**created_utc**|*int*|UTC timestamp for submission/comment post|
+**word_count**|*int*|Number of words in document|
 
 
 ## Conclusions
